@@ -45,7 +45,12 @@
       <scope>runtime</scope>
     </dependency>
 
-  
+   <!-- GCP Secret Manager -->
+    <dependency>
+        <groupId>com.google.cloud</groupId>
+        <artifactId>spring-cloud-gcp-starter-secretmanager</artifactId>
+        <version>4.8.0</version>
+    </dependency>
 
     <!-- GCP Cloud SQL Socket Factory for PostgreSQL -->
     <dependency>
